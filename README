@@ -19,7 +19,8 @@ The authorization server now redirects back to the client application
 on a pre-approved URI, with an authorization code.
 
 step4:
-The client then accesses the authorization server on the /oauth/token
+The client then accesses the resource server with authorization code,
+resource server accesses the authorization server on the /oauth/token
 endpoint to exchange the authorization code with an access token (including a refresh token).
 This token is actually a JSON Web Token (JWT). If you want to see what's in it,
 visit jwt.io and paste it in the Encoded section. You can find the token in the JSON outputted by the client as details.tokenValue.
@@ -68,3 +69,10 @@ Roles
    may be the same server as the resource server or a separate entity.
    A single authorization server may issue access tokens accepted by
    multiple resource servers.
+
+
+   同CAS区别：
+   用户与资源直接多了一层client，用户与client使用authorization code关联，
+   而client与资源服务器之间使用token关联，隔离产生两个好处：
+   1：黑客截获到authorization code也不能直接调取资源服务器的资源，必须通过client
+   2：而client与资源服务器之间有注册机制限制client可见的资源

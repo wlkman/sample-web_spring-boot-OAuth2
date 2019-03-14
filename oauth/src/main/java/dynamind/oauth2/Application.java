@@ -154,7 +154,7 @@ public class Application extends SpringBootServletInitializer {
 
                     .and()
 
-                            // Public client where client secret is vulnerable (e.g. mobile apps, browsers)
+                    // Public client where client secret is vulnerable (e.g. mobile apps, browsers)
                     .withClient("public") // No secret!
                     .authorizedGrantTypes("implicit")
                     .scopes("read")
@@ -162,7 +162,7 @@ public class Application extends SpringBootServletInitializer {
 
                     .and()
 
-                            // Trusted client: similar to confidential client but also allowed to handle user password
+                     // Trusted client: similar to confidential client but also allowed to handle user password
                     .withClient("trusted").secret("secret")
                     .authorities("ROLE_TRUSTED_CLIENT")
                     .authorizedGrantTypes("client_credentials", "password", "authorization_code", "refresh_token")

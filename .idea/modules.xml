@@ -2,6 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client/client.iml" filepath="$PROJECT_DIR$/.idea/modules/client/client.iml" group="client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client/client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/client/client_main.iml" group="client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client/client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/client/client_test.iml" group="client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/oauth/oauth.iml" filepath="$PROJECT_DIR$/.idea/modules/oauth/oauth.iml" group="oauth" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/oauth/oauth_main.iml" filepath="$PROJECT_DIR$/.idea/modules/oauth/oauth_main.iml" group="oauth" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/oauth/oauth_test.iml" filepath="$PROJECT_DIR$/.idea/modules/oauth/oauth_test.iml" group="oauth" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/resource/resource.iml" filepath="$PROJECT_DIR$/.idea/modules/resource/resource.iml" group="resource" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/resource/resource_main.iml" filepath="$PROJECT_DIR$/.idea/modules/resource/resource_main.iml" group="resource" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/resource/resource_test.iml" filepath="$PROJECT_DIR$/.idea/modules/resource/resource_test.iml" group="resource" />
       <module fileurl="file://$PROJECT_DIR$/.idea/sample-web_spring-boot-OAuth2.iml" filepath="$PROJECT_DIR$/.idea/sample-web_spring-boot-OAuth2.iml" />
     </modules>
   </component>

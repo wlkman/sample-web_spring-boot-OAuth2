@@ -2,6 +2,12 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="client_main" target="1.8" />
+      <module name="client_test" target="1.8" />
+      <module name="oauth_main" target="1.8" />
+      <module name="oauth_test" target="1.8" />
+      <module name="resource_main" target="1.8" />
+      <module name="resource_test" target="1.8" />
       <module name="sample-web_spring-boot-OAuth2_main" target="1.8" />
       <module name="sample-web_spring-boot-OAuth2_test" target="1.8" />
     </bytecodeTargetLevel>
